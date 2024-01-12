@@ -18,3 +18,7 @@ export const AvatarPropTypes = {
   state: PropTypes.number,
   imgsrc: PropTypes.string,
 };
+
+export const IconButtonProps = {
+  children: PropTypes.node,
+};

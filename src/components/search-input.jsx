@@ -4,7 +4,7 @@ import { InputProps } from '../prop-types.d';
 export default function SearchInput({ name, placeholder }) {
   return (
     <>
-      <p className="text-[#0000009a] p-2">
+      <p className="text-gray-500 p-2">
         <IconSearch size="1.5em" />
       </p>
       <input
