@@ -21,4 +21,5 @@ export const AvatarPropTypes = {
 
 export const IconButtonProps = {
   children: PropTypes.node,
+  callback: PropTypes.func,
 };
